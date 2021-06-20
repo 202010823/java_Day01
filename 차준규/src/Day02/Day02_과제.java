@@ -86,10 +86,31 @@ public class Day02_과제 {
 //		System.out.println( input + "은 홀수가" + ((input%2)==1) +"입니다.");
 		
 		//문제 5번 풀이
-		int input;
-		System.out.print("하나의 정수를 입력해주세요: ");
-		input = sc.nextInt();
-		System.out.println("입력하신 정수는 7의 배수이면서 짝수가 " + (((input%142)==0) && ((input%7)==0)) + "입니다 " );
+//		int input;
+//		System.out.print("하나의 정수를 입력해주세요: ");
+//		input = sc.nextInt();
+//		System.out.println("입력하신 정수는 7의 배수이면서 짝수가 " + (((input%142)==0) && ((input%7)==0)) + "입니다 " );
+		
+		//문제 6번풀이
+//		int input1,input2;
+//		System.out.print("두개의 정수를 입력해주세요: ");
+//		input1 = sc.nextInt();
+//		input2 = sc.nextInt();
+//		System.out.println("전자가 후가보다 크다는것은 "+ (input1>input2) + "입니다");
+		
+		//문제 7번풀이 
+		double input;
+//		System.out.print("반지름을 입력해주세요 : ");
+//		input = sc.nextDouble();
+//		System.out.println("원의 넓이는 "+ input*input*3.14+" 입니다");
+		
+		//문제 8번 풀이 
+//		double i1,i2,p;
+//		System.out.print("두 실수를 입력해주세요: ");
+//		i1 = sc.nextDouble();
+//		i2 = sc.nextDouble();
+//		p = (i1/i2)*100;
+//		System.out.println(p+" % 입니다");
 		
 	}
 }
