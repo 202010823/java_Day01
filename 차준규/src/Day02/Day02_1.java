@@ -76,12 +76,12 @@ public class Day02_1 {// c s
 		 		만원권 : 6
 		 		천원권 : 5
 		 		백원 : 4
-		 */
+		 */ 
 		int cost = 365420;
-		System.out.println("십만원권 : " + cost/100000);
-		System.out.println("만원권 : " +  (cost%100000)/10000);
-		System.out.println("천원권 : " + (cost%10000)/1000);
-		System.out.println("백원 : " + (cost%1000)/100);
+		System.out.println("십만원권 : " + cost/100000 + "개");
+		System.out.println("만원권 : " +  (cost%100000)/10000 + "개");
+		System.out.println("천원권 : " + (cost%10000)/1000 + "개 ");
+		System.out.println("백원 : " + (cost%1000)/100 +"개 ");
 		
 		// 수업시간에 배운 방법은 만원권을 할 때에는 전체 금액 -  십만원권장수 * 십만원 이런식으로 사용 
 		// 천원권도 마찬가지로 전체 금액 -  (십만원권장수 * 십만원) - (만원권장수 * 만원) 와 같은 방법으로 구한다.
