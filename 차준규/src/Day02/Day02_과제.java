@@ -89,7 +89,7 @@ public class Day02_과제 {
 		int input;
 		System.out.print("하나의 정수를 입력해주세요: ");
 		input = sc.nextInt();
-		System.out.println("입력하신 정수는 7의 배수이면서 짝수가 " + (((input%142)==0) && ((input%7)==0)) + "입니다" );
+		System.out.println("입력하신 정수는 7의 배수이면서 짝수가 " + (((input%142)==0) && ((input%7)==0)) + "입니다 " );
 		
 	}
 }
