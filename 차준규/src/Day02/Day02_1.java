@@ -31,7 +31,7 @@ public class Day02_1 {// c s
 		  홀수이면 [true] 짝수이면 [false
 		 */
 		/* 문제2
-		  36의 수가 3의 배수이면 [true] 아니면 [false] 출력 
+		  36의 수가 3의 배수이면 [true] 아니면 [false] 출력
 		 */
 		System.out.println("3은 홀수:" + ((3%2)==1));
 		// 홀수/짝수 판단 
@@ -48,7 +48,7 @@ public class Day02_1 {// c s
 			// 부정: ! : true => false , false => true
 		System.out.println("and: "+(1<3 && 3<5));
 		System.out.println("or :" +(1<3 || 3<2)); //T , 한개만 T여도 T가 나온다.
-		System.out.println("부정: " + !(1<3));
+		System.out.println("부정 : " + !(1<3));
 		
 	}
 }// c e 
