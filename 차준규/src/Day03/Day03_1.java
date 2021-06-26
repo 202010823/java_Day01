@@ -21,7 +21,10 @@ public class Day03_1 {
 			// Scanner 객체명 = new Scanner(System.in);
 		// 입력객체에서 데이터 가져오기 => .next()
 	public static void main(String[] args) {
+		//Day2 과제 
+		//문제3 : 하나의 정수를 입력받아 7의 배수이닞 확인 => T 혹은 F 출력 
 		
+		//문제4 :
 	}
 
 }
