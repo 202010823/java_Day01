@@ -163,5 +163,7 @@ public class Day02_과제 {
 //		int x = 10;
 //     	int y = x-- + 5 + --x;
 //     	System.out.printf("x의 값 : %d , y의 값: %d ",x,y);
+		
 	}
+	
 }
