@@ -99,7 +99,7 @@ public class Day02_과제 {
 //		System.out.println("전자가 후가보다 크다는것은 "+ (input1>input2) + "입니다");
 		
 		//문제 7번풀이 
-		double input;
+//		double input;
 //		System.out.print("반지름을 입력해주세요 : ");
 //		input = sc.nextDouble();
 //		System.out.println("원의 넓이는 "+ input*input*3.14+" 입니다");
@@ -112,5 +112,56 @@ public class Day02_과제 {
 //		p = (i1/i2)*100;
 //		System.out.println(p+" % 입니다");
 		
+		// 문제 9번 풀이 
+//    	double a,b,height,result;
+//    	System.out.print("윗변을 입력해주세요:");
+//    	a = sc.nextDouble();
+//    	System.out.print("아랫변을 입력해주세요:");
+//    	b = sc.nextDouble();
+//    	System.out.print("높이를 입력해주세요:");
+//    	height = sc.nextDouble();
+//    	result = ((a+b)*height)/2;
+//    	System.out.println("사다리꼴의 넓이는" + result + "입니다.");
+//
+        //문제 10번 풀이 
+//    	double result;
+//    	int a;
+//    	System.out.print("키를 입력해주세요:");
+//    	a = sc.nextInt();
+//    	result = (a-100)*0.9;
+//    	System.out.println("표준 체중은 "+result+"입니다.");
+	
+        // 문제 11번 풀이 
+//		double a,b,c;
+//   	System.out.print("키를 입력해주세요:");
+//    	a = sc.nextDouble();
+//    	System.out.print("몸무게를 입력해주세요:");
+//    	b = sc.nextDouble();
+//    	c = b / ((a / 100) * (a / 100));
+//    	System.out.println("bmi지수는 " +c+ "입니다");
+	
+	
+		// 문제 12 번 풀이 
+//    	double inch,cm;
+//    	System.out.print("inch를 입력해주세요:");
+//    	inch = sc.nextDouble();
+//    	cm = 2.54 * inch;
+//    	System.out.println("입력하신 inch는 "+cm+" cm 입니다.");
+	
+		//문제 13 번 풀이 
+//    	double m,g,s,result;
+//    	System.out.print("중간고사 점수를 입력해주세요:");
+//    	m=sc.nextDouble();
+//    	System.out.print("기말고사 점수를 입력해주세요:");
+//    	g=sc.nextDouble();
+//    	System.out.print("수행평가 점수를 입력해주세요:");
+//    	s = sc.nextDouble();
+//    	result = m*0.3+g*0.3+s*0.4;
+//    	System.out.println(result);
+	
+		// 문제 14 번 풀이 
+//		int x = 10;
+//     	int y = x-- + 5 + --x;
+//     	System.out.printf("x의 값 : %d , y의 값: %d ",x,y);
 	}
 }
