@@ -160,7 +160,7 @@ public class Day02_과제 {
 //    	System.out.println(result);
 	
 		// 문제 14 번 풀이 
-//		int x = 10;
+		int x = 10;
 //     	int y = x-- + 5 + --x;
 //     	System.out.printf("x의 값 : %d , y의 값: %d ",x,y);
 		
