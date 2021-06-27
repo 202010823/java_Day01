@@ -13,6 +13,7 @@ public class Day04_1 {
 			// 초기값 : 반복의 시작값 [for 시작할때 1번 검사]
 			// 조건문: 반복 실행의 조건[ 바교연산자 , 실행코드 실행전 검사 ]
 			// 증감식 : 실행코드 실행후 초기값 증감
+	
 	// 예1 
 	public static void main(String[] args) {
 		
@@ -61,6 +62,25 @@ public class Day04_1 {
 		}
 		System.out.println("3의 배수들의 누적 합계(1~50) : "+sum2);
 		
-		
+		// 예 6: 2단 구구단 출력[단:2(상수) 곱 1~9(변수)] 출력 
+		for (int i = 1; i<=9;i++) {
+			System.out.printf("2 x %d = %d \n",i,2*i);
+		}
+		// 예 7 : 구구단 출력 [단 : 2~9(변수) 곱: 1~9(변수) 출력 ]
+			// 단 2일 경우 곱 9 번 실행 	// 단*곱 = 72 번 실행
+			// 단 3일 경우 곱 9 번 실행 
+			//~~~~~~~~~~~~~~~~~~~~~
+			// 단 9일 경우 곱 9 번 실행 
+				//for 중첩 
+					// for1(){ for2(){for3() } }
+						// for 1번 실행시 for2 모두 실행 
+							// for2 1번 실행시 for3 모두 실행 
+								// for3 실행횟수 : for1 * for2 * for3
+		for( int i = 2;i<=9;i++) {
+			System.out.println("--------> "+i+"단");
+			for(int q = 1; q<=9;q++) {
+				System.out.printf("%d X %d = %d \n",i,q,i*q);
+			}
+		}
 	}
 }
