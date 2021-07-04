@@ -57,6 +57,10 @@ public class Day06_1 {
 				}
 				
 				// 가장 높은 점수 출력 
+//				int max = 0;
+//				for(int i=0;i< 학생점수.length;i++) {
+//					if(max < 학생점수[i]) max = 학생점수[i];
+//				}
 				// 평균
 				int high;
 				int 총합=0;
