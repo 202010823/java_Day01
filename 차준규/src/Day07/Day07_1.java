@@ -1,5 +1,8 @@
 package Day07;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -19,6 +22,10 @@ public class Day07_1 {
 		// 2. 리스트 : 동일한 자료형/클래스의 여러개 메모리를 저장할수 있는 객체 
 			// ArrayList<integer> 리스트 = new ArrayList<>();
 					// <제네릭>
+	// 메모리 영구 저장방법 => 메모리(주기억장치) => 보조기억 장치 
+		// 1. 파일처리 
+		// 2. 데이터베이스
+		// 3. 클라우드 
 	//클래스 [java 100% 객체지향 ]
 		// 1. 최상위 클래스에 object 클래스가 존재 
 			// 모든 클래스는 object 상속을 받는다.
@@ -60,6 +67,44 @@ public class Day07_1 {
 			
 			temp1.나이업데이트(40);
 			System.out.println(temp1.나이);
+			
+			// 파일처리 
+				// 스트림: 외부장치와 데이터 통신
+					// !!! : 데이터 통신 단위 : 바이트 
+						// bit[0,1] => 8bit =>1바이트
+				// 1. 내보내기 [FileOutputStream 클래스 ] 
+					//예외처리 : 오류발생시=> 오류처리 경우의 수 
+			try { // try 안에서 예외 발생시 => catch 이동 
+					//try 안에서 예외가 없을 경우는 그래도 실행 
+				
+				FileOutputStream fileOutputStream = new FileOutputStream("c:/java/test.txt");
+				
+				String 문자열 = "java입니다"; //문자열
+				
+				fileOutputStream.write(문자열.getBytes() ); // 문자열이 문자열이 아닌경우의 수 
+					// write(바이트) : 출력 [내보내기] :
+						// 문자열.getbytes() :문자열 => 바이트
+			} catch (Exception e) { // Exception : 모든 예외 처리 클래스 
+				System.out.println("파일경로가 존재하지 않습니다");
+			}
+				
+			// 2. 읽어오기 
+			try {
+				FileInputStream fileInputStream = new FileInputStream("c:/java/test.txt");
+				// 스트림의 이동단의 바이트 
+				byte[] 바이트 = new byte[1024]; // 1024 바이트를 저장할수 있는 배열  -> 1kbyte
+				fileInputStream.read(바이트);
+					//read : 파일 스트림 읽어오기 => 바이트 배열에 저장 
+				System.out.println(new String(바이트));
+					// 바이트 => 문자열 
+						// new String (바이트) : 바이트 => 문자열 
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	
+			
+			
 			
 			
 			
