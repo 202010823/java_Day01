@@ -61,7 +61,14 @@ public class 신한은행 extends 계좌{
 	public void 출금() {
 		System.out.println("신한은행 출금화면 ");
 		super.출금();
+	}
+
+	@Override
+	public void 이체() {
+		System.out.println("신한은행 이체화면 :");
+		super.이체();
 	}	
+	
 	
 	
 	

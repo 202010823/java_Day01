@@ -45,7 +45,12 @@ public class Day08_ATM {
 			 }
 			}
 			else if (선택 == 4) {
-				
+				System.out.println("[[1.신한은행 2.국민은행]]");
+				int 선택2 = sc.nextInt();
+				if(선택2 == 1) {
+					계좌 신한은행 = new 신한은행();
+					신한은행.이체();
+				}
 			}
 			else if (선택 == 5 ) {
 				
@@ -65,4 +70,7 @@ public class Day08_ATM {
 	
 	
 }
+
+
+// 과제로 file처리해서 리스트 저장하는 방식으로 바꿔보기 
 
